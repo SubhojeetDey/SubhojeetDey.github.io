@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#menu img{
+    height: 45px;
+    width: 45px;
+    color: aliceblue;
+}
+#menu{
+    border: none;
+    background-color: inherit;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#nav-bar{
+    display: flex;
+    flex-direction:column;
+    list-style-type: none;
+    justify-content: end;
+    display: none;
+}
+#nav-bar li{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: wheat;
+    display: flex;
+}
+.container{
+    background-color: blueviolet;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.head h1{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    font-size: 22px;
+}
+.intro{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/bg.jpg);
+    padding-top: 200px;
+    padding-bottom: 340;
+    background-size: cover;
+}
+.intro h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.intro h1{
+    min-height: 20px;
+    min-width: 20px;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+.card{
+    height: 220px;
+    width: 350px;
+    background: linear-gradient(rgba(255, 255, 255,.5), rgba(255, 255, 255,.5));
+    margin: 10px;
+    justify-items: center;
+    padding: 5px;
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card img{
+    height: 50px;
+    width:50px ;
+    min-height: 25px;
+    min-width:25px ;
+}
+.skills-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: end;
+}
+.skills-top h2{
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 45px;
+    transition-duration: 1s;
+}
+.skills-top{
+    padding-bottom: 15px;
+}
+.skills-top hr{
+    width: 20px;
+    height: 2px;
+    border: none;
+    background-color: #0078ff;
+    transition-duration: 1s;
+}
+.skills-top h2:hover hr{
+    width: 100px;
+    transition-duration: 1s;
+}
+.skills-top h2:hover{
+    font-size: 55px;
+    transition-duration: 1s;
+}
+.card:hover{
+    background-color: aliceblue;
+    transition-duration: .5s;
+    translate: 0px 10px;
+}
+.skills{
+    background-image: url(/img/skills1.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.nd{
+    visibility: hidden;
+}
+.intro:hover .nd{
+    visibility: visible;
+    transition-duration: .8s;
+    translate: 0px -10px;
+}
+.intro:hover .ist{
+    visibility: hidden;
+}
+.proj{
+    background: linear-gradient(rgba(255, 255, 255,.5), rgba(255, 255, 255,.5));
+    padding: 8px;
+    display: flex;
+    width: 320px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #2e1f0a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.proj h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4d1f0a;
+    display: flex;
+    flex-shrink: 1;
+    margin-right: 5px;
+}
+.about-me{
+    background-image: url(/img/about-me.jpg);
+    background-size: cover;
+    padding: 10px;
+    height: 800px;
+}
+.about-me-top{
+    color: rgb(51, 51, 49);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-me-top hr{
+    width: 30px;
+    background-color: white;
+    border: none;
+    height: 5px;
+    border-radius: 2px;
+    transition-duration: .5s;
+}
+.about-me-top h1{
+    transition-duration: .5s;
+}
+.about-me-top:hover h1{
+    font-size: 40px;
+    transition-duration: .5s;
+}
+.about-me-top:hover hr{
+    width: 100px;
+    transition-duration: .5s;
+}
+.about-me-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.proj a{
+    text-decoration: none;
+}
+#pfp{
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+}
+.flex-container{
+    background-image: url(/img/about-me.jpg);
+    background-size: cover;
+}
+.flex-container h2{
+    padding: 10px;
+    font-family: oswald;
+    color: #2e1f0a;
+    font-size: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 800px;
+}
+#introduction{
+    height: fit-content;
+    max-width: 500px;
+    min-width: 280px;
+    font-family: parkinsans;
+    color: darkgoldenrod;
+}
+.pfp-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 10px;
+    height: max-content;
+    width: 800px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    transition-duration: .5s;
+}
+.links{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.social-links:hover img{
+    height: 50px;
+    width: 50px;
+    transition-duration: 1s;
+}
+.social-links:hover p{
+    font-size: 25px;
+    transition-duration: 1s;
+}
